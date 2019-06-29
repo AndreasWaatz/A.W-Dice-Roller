@@ -1,6 +1,6 @@
 body {
-    background-color:rgb(240, 240, 245);
-    
+    background-image: url(images/background-image.jpg);
+    background-position: center; 
 }
 
 /*Headline*/
@@ -9,7 +9,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(102, 23, 126);
+    background-color: black;
+    color: rgb(190, 75, 224);
 }
 
 /* Buttons */
@@ -18,4 +19,29 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
+}
+
+#one-dice {
+    background-color: #f44336;
+    color: aliceblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#one-dice:hover {
+    background-color: rgb(255, 255, 255); /* Green */
+    color: #f44336;
+  }
+
+/* Dice Image*/
+
+.dice-image img{
+    margin-top: 50px;
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
